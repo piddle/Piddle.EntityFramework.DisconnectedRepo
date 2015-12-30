@@ -1,0 +1,6 @@
+﻿These are the Package Manage Console window commands for the migrations used:
+
+enable-migrations -ProjectName Piddle.EntityFramework.DisconnectedRepo.TestingArea -ContextTypeName Piddle.EntityFramework.DisconnectedRepo.TestingArea.TestingAreaStandardContext
+
+add-migration -ProjectName Piddle.EntityFramework.DisconnectedRepo.TestingArea -StartUpProjectName Piddle.EntityFramework.DisconnectedRepo.TestingArea Init
+update-database -Script -ProjectName Piddle.EntityFramework.DisconnectedRepo.TestingArea -StartUpProjectName Piddle.EntityFramework.DisconnectedRepo.TestingArea -TargetMigration Init
