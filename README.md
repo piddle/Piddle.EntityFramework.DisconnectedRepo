@@ -4,6 +4,10 @@ Entity Framework is something I'd used in the past (version 1) and it worked for
 
 I've put this project together to showcase the problems with a "Normal" context (out of the box) and with a "Manual" context (AutoDetectChangesEnabled = false, LazyLoadingEnabled = false, ProxyCreationEnabled = false). There are unit tests that highlight some of what you can and can't do with the two, with the most important being what happens to children when detaching or disposing of a context.
 
+# License
+
+See LICENSE.txt -- it's the MIT License (MIT)
+
 # What you need
 
 - Visual Studio 2013+
