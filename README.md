@@ -17,5 +17,5 @@ See LICENSE.txt -- it's the MIT License (MIT)
 
 - Create a new DB in SQL Server e.g. Piddle.EntityFramework.DisconnectedRepo.TestingArea
 - Load solution in Visual Studio.
-- Edit App.config connection string to point at the new DB
+- Edit App.config connection string to point at the new DB (might just work as-is if the names and security work)
 - Run the unit tests
