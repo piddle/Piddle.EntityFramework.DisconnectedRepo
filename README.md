@@ -6,8 +6,9 @@ I've put this project together to showcase the problems with a "Normal" context 
 
 # License
 
-See LICENSE.txt -- it's the MIT License (MIT).
-Any packages will have their own licenses, please check those separately.
+See LICENSE.txt - it's the MIT License (MIT).
+
+Note: Any packages will have their own licenses, please check those separately.
 
 # What you need
 
